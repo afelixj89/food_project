@@ -1,0 +1,15 @@
+nav{
+    background-color: rgba(0, 0, 0, 0.3); 
+    height: 40px ;
+    display: flex;
+    justify-content: space-between
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 18px; 
+    padding: 10px 20px;
+    font-weight: 400;
+    font-family: 'chalkboard', sans-serif;
+  }
