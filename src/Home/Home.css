@@ -35,6 +35,10 @@
   
 
 }
+.button:hover {
+  background-color: #2c2b2b8c; /* Change to desired hover color */
+}
+
 
 input{
     margin: 10px;
