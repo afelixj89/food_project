@@ -52,9 +52,9 @@ function Food() {
         <a className="linksCSS" href={food.strYoutube}>Video on how to prepare the dish!</a>
         </div>
         
-        <p>Ingredients and Quantities</p>
+        <p className="ingredientTitle">Ingredients and Quantities</p>
         <ul>
-          <li>{`${food.strIngredient}  ${food.strMeasure1}`}</li>
+          <li>{`${food.strIngredient1} ${food.strMeasure1}`}</li>
           <li>{`${food.strIngredient2} ${food.strMeasure2}`}</li>
           <li>{`${food.strIngredient3} ${food.strMeasure3}`}</li>
           <li>{`${food.strIngredient4} ${food.strMeasure4}`}</li>
