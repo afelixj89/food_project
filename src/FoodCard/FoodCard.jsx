@@ -1,12 +1,13 @@
 import React from 'react';
 import './FoodCard.css';
+import Food from '../Food/Food';
 
 
 
 
 function FoodCard() {
   return (
-    <div></div>
+    <div><Food /></div>
   )
 }
 
