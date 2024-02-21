@@ -46,6 +46,10 @@ ul {
   width: 1000px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.771);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 img {
@@ -61,3 +65,10 @@ img {
   font-size: medium ;
   text-decoration: underline;
 }
+
+
+/* card{
+  display: none;
+} */
+
+/* .toggleIngredients{display: none;} */
