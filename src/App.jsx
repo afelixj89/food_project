@@ -1,6 +1,5 @@
 import "./App.css";
-import FindFood from "./Home/Home.jsx";
-import { Routes, Route, NavLink } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./Nav/NavBar.jsx";
 import Home from "./Home/Home.jsx";
 import FoodCard from "./FoodCard/FoodCard.jsx";
