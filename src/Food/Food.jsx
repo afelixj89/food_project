@@ -22,9 +22,15 @@ function Food() {
       })
         .then((res) => res.json())
         .then((data) => {
-          console.log(data.meals);
-          setShowCard(false);
-          setFood(data.meals[0]);
+          
+          if (data.meals) {
+            setShowCard(false);
+            setFood(data.meals[0]);
+          } else {
+            // Handle case where no meals are found
+            alert("No meals found");
+          
+          }
         });
     }
   };
