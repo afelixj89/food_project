@@ -1,5 +1,4 @@
 import React from 'react';
-import './FoodCard.css';
 import Food from '../Food/Food';
 
 

@@ -6,11 +6,11 @@ function Navbar() {
   return (
     <nav>
       <div>
-    <Link to = "/">Home</Link>
-    <Link to = "/find-recipe">Find Recipe</Link>
+    <Link id="navLinks" to = "/">Home</Link>
+    <Link id="navLinks" to = "/find-recipe">Find Recipe</Link>
     </div>
     <div>
-    <Link to = "/sign-out">Sign Out</Link>
+    <Link id="navLinks" to = "/sign-out">Sign Out</Link>
     </div>
     </nav>
   )

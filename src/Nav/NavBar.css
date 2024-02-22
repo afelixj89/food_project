@@ -5,11 +5,19 @@ nav{
     justify-content: space-between
 }
 
-a {
+#navLinks {
     text-decoration: none;
     color: #ffffff; 
     font-size: 18px; 
     padding: 10px 20px;
     font-weight: 400;
-    font-family: 'chalkboard', sans-serif;
   }
+
+
+  @media (max-width: 580px) {
+    #navLinks{
+        font-size: 10px;
+       
+    }
+}
+

@@ -2,12 +2,11 @@ body{
     background-image: url('vintage-old-rustic-cutlery-dark.jpg');
     margin: 0;
     padding: 0;
-    background-size: cover; /* Cover ensures the background image covers the entire container */
+    height: 100vh;
+    background-size: cover; 
     background-repeat: no-repeat;
     font-family: 'chalkboard', sans-serif;
-    color: white
-    ;
-    
+    color: #fff;
 }
 
 footer {
@@ -15,11 +14,11 @@ footer {
     left: 0;
     bottom: 0; 
     width: 100%; 
-    background-color: rgb(10, 10, 10);
-    color: #fff; 
+    background-color: rgba(10, 10, 10, 0.436);
     padding: 20px;
     text-align: center;
-    font-size: xx-small;
+    font-size: small;
+    text-decoration: none;
 }
 
 .signOut{
@@ -28,7 +27,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #fff; 
-    font-family: 'chalkboard', sans-serif;
+
 
 }
+

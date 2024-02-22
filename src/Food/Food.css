@@ -44,7 +44,8 @@ ul {
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgb(255, 255, 255);
   margin: 10px;
-  width: 1000px;
+  height: 450px;
+  width: 800px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.771);
   position: fixed;
@@ -54,10 +55,10 @@ ul {
   font-family: "Protest Revolution", sans-serif;
   font-weight: 400;
   font-style: normal;
+  overflow-y: scroll;
 }
 
 .ingredientsButton{
-  /* font-size: 20px; */
   background-color: #0000004b;
   color: #ffffff;
   border: none;
@@ -65,13 +66,13 @@ ul {
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
-  font-family: "chalkboard", sans-serif;
   box-shadow: 2px 2px 4px rgb(255, 255, 255);
   margin: 10px;
   position: fixed;
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: "chalkboard", sans-serif;
 
 }
 
@@ -86,6 +87,8 @@ img {
 .linksCSS {
   text-shadow: 2px 2px 4px red;
   text-decoration: underline;
+  font-family: "chalkboard", sans-serif;
+  color: #fff;
 }
 
 .ingredientTitle{
@@ -93,9 +96,20 @@ img {
   text-decoration: underline;
 }
 
+@media (max-width: 580px) {
+  card, .searchButton{
+      font-size: 12px;
+      
+     
+  }
+}
 
-/* card{
-  display: none;
-} */
-
-/* .toggleIngredients{display: none;} */
+@media (max-width: 580px) {
+  .linksCSS{
+      font-size: 20px;
+      font-family: "Protest Revolution", sans-serif;
+      color: white;
+      
+     
+  }
+}
