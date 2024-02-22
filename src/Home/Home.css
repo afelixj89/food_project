@@ -47,16 +47,17 @@ input{
 
 @media (max-width: 580px) {
   .welcome{
-      font-size: 26px;
+      font-size: 10px;
       top: 20%;
       padding: 10px;
+      margin-bottom: 10px;
      
   }
 }
 
 @media (max-width: 580px) {
   form, .button{
-      font-size: 14px;
+      font-size: 10px;
      
   }
 }

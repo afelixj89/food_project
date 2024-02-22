@@ -39,7 +39,7 @@ ul {
   padding: 20px;
 }
 
-.ingredients{
+.ingredients {
   font-size: 20px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgb(255, 255, 255);
@@ -58,7 +58,7 @@ ul {
   overflow-y: scroll;
 }
 
-.ingredientsButton{
+.ingredientsButton {
   background-color: #0000004b;
   color: #ffffff;
   border: none;
@@ -73,7 +73,6 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "chalkboard", sans-serif;
-
 }
 
 .ingredientsButton:hover {
@@ -91,25 +90,40 @@ img {
   color: #fff;
 }
 
-.ingredientTitle{
-  font-size: medium ;
+.ingredientTitle {
+  font-size: medium;
   text-decoration: underline;
 }
 
 @media (max-width: 580px) {
-  card, .searchButton{
-      font-size: 12px;
-      
-     
+  card,
+  .searchButton,
+  .ingredientsButton {
+    font-size: 8px;
   }
 }
 
 @media (max-width: 580px) {
-  .linksCSS{
-      font-size: 20px;
-      font-family: "Protest Revolution", sans-serif;
-      color: white;
-      
-     
+  .linksCSS {
+    font-size: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    color: white;
+  }
+}
+
+@media (max-width: 580px) {
+  .ingredients {
+    top: 40%;
+    height: 410px;
+
+  }
+}
+
+
+@media (max-width: 580px) {
+  .ingredientsButton {
+    top: 80%;
+
+
   }
 }
