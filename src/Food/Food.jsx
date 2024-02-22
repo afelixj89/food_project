@@ -30,8 +30,8 @@ function Food() {
   };
 
   useEffect(() => {
-    fetchFood();
-  }, []);
+  console.log(food);
+  }, [food]);
 
   function handleClick() {
     setSearch("");
