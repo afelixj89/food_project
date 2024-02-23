@@ -32,6 +32,8 @@ You can access the deployed version of the app [here](https://recipemundo.netlif
 
 ## Wireframe 
 
+Wireframe was done after the app was built***
+
 ![Wireframe 1](https://github.com/afelixj89/food_project/assets/90149052/014087b5-68fa-4857-bcc0-ad5727a722b9)
 
 ![Wireframe 2](https://github.com/afelixj89/food_project/assets/90149052/1d932248-dc06-4f09-a83e-90023ed49804)
