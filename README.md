@@ -12,6 +12,7 @@ This application utilizes React and an external API from [The Meal DB](https://w
 - View images of the searched items along with the list of required ingredients and quantities.
 - If the desired item is not found in the API, the app suggests similar items or alerts the user accordingly.
 - Each recipe description includes a link to a YouTube tutorial on how to prepare the dish.
+- You do not need to log in to search for a recipe. Please click on Find Recipe in the nav bar.
 
 ### Technologies Used:
 
